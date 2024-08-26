@@ -3,7 +3,7 @@ class Epidemicsound < Formula
     homepage "https://www.epidemicsound.com"
     url "https://github.com/epidemicsound/homebrew-epidemicsound/archive/refs/tags/0.2.tar.gz"
     sha256 "b4cd21847fae2124fc3b2c95f1854af53de96285f0db17f101cc6dd316520012"
-    revision 2
+    revision 3
 
     # Keep alphabetised
     depends_on "golang"
