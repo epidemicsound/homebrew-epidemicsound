@@ -5,6 +5,9 @@ class Epidemicsound < Formula
 
     # Keep alphabetised
     depends_on "golang"
+    depends_on "pkl"
+    depends_on "protobuf"
+    depends_on "protoc-gen-go"
 
     def install
         bin.install "hello-epidemic.sh" => "hello-epidemic"
