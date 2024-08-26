@@ -11,6 +11,7 @@ class Epidemicsound < Formula
     depends_on "pkl"
     depends_on "pre-commit"
     depends_on "protobuf"
+    depends_on "protoc-gen-connect-go"
     depends_on "protoc-gen-go"
 
     def install
