@@ -1,6 +1,3 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class ProtocGenConnectGo < Formula
   desc "The Go implementation of Connect: Protobuf RPC that works."
   homepage "https://connectrpc.com"
