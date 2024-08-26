@@ -2,6 +2,7 @@ class Epidemicsound < Formula
     desc "Devtools for EpidemicSound"
     homepage "https://www.epidemicsound.com"
     url "https://github.com/epidemicsound/homebrew-epidemicsound/archive/refs/tags/0.2.tar.gz"
+    revsion 1
 
     # Keep alphabetised
     depends_on "golang"
