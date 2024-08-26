@@ -1,7 +1,7 @@
 class Epidemicsound < Formula
     desc "Devtools for EpidemicSound"
     homepage "https://www.epidemicsound.com"
-    url "insert-url-here"
+    url "https://github.com/epidemicsound/homebrew-epidemicsound/archive/refs/tags/0.1.tar.gz"
 
     # Keep alphabetised
     depends_on "golang"
@@ -10,4 +10,3 @@ class Epidemicsound < Formula
         bin.install "hello-epidemic.sh" => "hello-epidemic"
     end
   end
-i
