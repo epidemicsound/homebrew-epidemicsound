@@ -18,7 +18,12 @@ HOMEBREW_AUTO_UPDATE_SECS=0 brew tap epidemicsound/epidemicsound
 
 ## Adding more tools
 
-Add the dependecy to ```Formula/e/epidemicsound.rb```
+- Add the dependecy to ```Formula/e/epidemicsound.rb```
+- Push and merge the PR
+- Create a new release
+- Update the version path in epidemicsound.rb
+- Push and merge the PR
+- ```brew upgrade epidemicsound```
 
 ## Useful links
 

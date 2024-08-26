@@ -6,6 +6,7 @@ class Epidemicsound < Formula
     # Keep alphabetised
     depends_on "golang"
     depends_on "pkl"
+    depends_on "pre-commit"
     depends_on "protobuf"
     depends_on "protoc-gen-go"
 
