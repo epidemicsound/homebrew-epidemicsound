@@ -4,9 +4,10 @@ This is a private tap for Homebrew. Use it to distribute external tools required
 
 ## Using
 
-Run the following command to add this tap to your brew installation
+Run the following commands to add this tap and install the epidemicsound toolchain.
 ```
 brew tap epidemicsound/epidemicsound
+brew install epidemicsound
 ```
 
 To refresh the tap configuration force a brew update using ```HOMEBREW_AUTO_UPDATE_SECS```.
